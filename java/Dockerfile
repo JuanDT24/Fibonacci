@@ -1,5 +1,7 @@
 FROM openjdk:17
 WORKDIR /app  
-COPY fib.java .  
+RUN mkdir -p javat
+COPY fib.java javat/fib.java   
+WORKDIR /app/javat  
 RUN javac fib.java  
-CMD ["java", "fib"]
+CMD ["java", "javat.fib"]
