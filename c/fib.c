@@ -13,6 +13,6 @@ int main() {
     start = clock();
     int fn = Fibonacci(n);
     end = clock();
-    printf(file, "Time taken: %f seconds\n", (double)(end - start) / CLOCKS_PER_SEC);
+    printf("Time taken: %f seconds\n", (double)(end - start) / CLOCKS_PER_SEC);
     return 0;
 }
