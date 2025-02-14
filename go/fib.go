@@ -17,6 +17,5 @@ func main() {
 	start := time.Now()
 	result := nthFibonacci(n)
 	elapsed := time.Since(start)
-	fmt.Printf("Result: %d\n", result)
 	fmt.Printf("Time taken: %v seconds\n", elapsed.Seconds())
 }
