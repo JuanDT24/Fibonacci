@@ -1,3 +1,4 @@
+package javat;
 public class fib {
     static int nthFibonacci(int n){
         if (n <= 1) {
